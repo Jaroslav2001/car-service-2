@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+
+import './Main.css'
  
 export default class Home extends Component {
     render() {
         return (
-            <main>
+            <main className="main">
                 <h1>Автомастерская У Бобби</h1>
-                <article>
+                <article className="article">
                     <h2>Содержание</h2>
                     <section>
                         <ul>
@@ -24,7 +26,7 @@ export default class Home extends Component {
                     </section>
                 </article>
 
-                <article id="description">
+                <article id="description" className="article">
                     <h2>Описание</h2>
                     <section>
                         <p>Мы, молодая автомастерская, только вышли на рынок. Прямо сейчас идет борьба за ваше внимание и ваши деньги.
@@ -34,7 +36,7 @@ export default class Home extends Component {
                     </section>
                 </article>
 
-                <article id="types">
+                <article id="types" className="article">
                     <h2>Виды работ</h2>
                     <section>
                         <h3>Ремонт автомобилей</h3>
@@ -73,7 +75,7 @@ export default class Home extends Component {
                     </section>
                 </article>
 
-                <article id="prise">
+                <article id="prise" className="article">
                     <h2>Цены</h2>
                     <section>
                         <img src="./img/two.jpg" alt="Картинка"/>
@@ -87,7 +89,7 @@ export default class Home extends Component {
                     </section>
                 </article>
 
-                <article id="specialists">
+                <article id="specialists" className="article">
                     <h2>Специалисты</h2>
                     <section>
                         <img src="./img/Three.jpg" alt="Картинка"/>

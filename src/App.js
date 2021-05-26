@@ -18,21 +18,21 @@ import Users from './apps/Users';
 function App() {
   return (
     <Router>
-      <header>
-        <div class="logo"></div>
-        <div class="description">
-          <div class="wrapper">
-            <div class="name"><h1>Автомастерская</h1></div>
-            <div class="number"><h2>+79516052951</h2></div>
+      <header className="header">
+        <div className="logo"></div>
+        <div className="description">
+          <div className="wrapper">
+            <div className="name"><h1>Автомастерская</h1></div>
+            <div className="number"><h2>+79516052951</h2></div>
           </div>
           <nav>
-            <ul>
-                <li><Link to="/">Главная</Link></li>
-                <li><Link to="/services">Услуги</Link></li>
-                <li><Link to="/contacts">Контакты</Link></li>
-                <li><Link to="/gallery">Галерея</Link></li>
-                <li><Link to="/orders">Заказы</Link></li>
-                <li><Link to="/users">Пользователь</Link></li>
+            <ul className="ul">
+                <li className="li"><Link className="a" to="/">Главная</Link></li>
+                <li className="li"><Link className="a" to="/services">Услуги</Link></li>
+                <li className="li"><Link className="a" to="/contacts">Контакты</Link></li>
+                <li className="li"><Link className="a" to="/gallery">Галерея</Link></li>
+                <li className="li"><Link className="a" to="/orders">Заказы</Link></li>
+                <li className="li"><Link className="a" to="/users">Пользователь</Link></li>
             </ul>
           </nav>
         </div>
@@ -57,6 +57,13 @@ function App() {
             <Home />
         </Route>
       </Switch>
+      <footer className="footer">
+        <div className="legal-info"><p>2021 Автомастерская у Бобби</p></div>
+        <div className="contacts">
+            <div className="number"><p>+79516052951</p></div>
+            <div className="email"><p>CarServicesBob@gmail.com</p></div>
+        </div>
+      </footer>
     </Router>
   );
 }

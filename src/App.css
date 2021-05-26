@@ -1,11 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-header{
+.header{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.logo{
+  background-image: url('./img/car.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 126px;
+  height: 126px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name{
+  margin: 10px;
+}
+
+.number{
+  margin: 10px;
+}
+
+.ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 2px;
+  border: black solid 3px;
+}
+
+.a{
+  color: #000;
+  text-decoration: none;
+}
+
+.a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer > div{
+  border: black solid 3px;
+  padding: 10px;
+  margin: 5px;
+}
+
+p, li{
+  font-size: 24px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 27px;
 }
 
 /*

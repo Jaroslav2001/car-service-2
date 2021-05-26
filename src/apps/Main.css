@@ -1,0 +1,17 @@
+.main{
+    margin: auto;
+}
+
+.main > h1, h2{
+    text-align: center;
+}
+
+.article{
+    margin: 5px;
+    padding: 35px;
+    display: block;
+    max-width: 1100px;
+    border: black solid 3px;
+    border-radius: 25px;
+    background-color: rgba(240, 240, 240, 0.5);
+}
